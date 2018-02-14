@@ -70,9 +70,6 @@ RUN cd /tmp/ffmpeg-${FFMPEG_VERSION} && \
 # Cleanup.
 RUN rm -rf /var/cache/* /tmp/*
 
-ADD stream.sh /opt/nginx/stream.sh
-RUN chmod +x /opt/nginx/stream.sh
-
 ADD nginx.conf /opt/nginx/nginx.conf
 ADD static /www/static
 
