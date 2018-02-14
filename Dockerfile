@@ -1,5 +1,5 @@
 FROM alpine:3.3
-MAINTAINER Alfred Gutierrez <alf.g.jr@gmail.com>
+MAINTAINER Alex Jones <hi@alexjones.radio>
 
 ENV NGINX_VERSION 1.13.6
 ENV NGINX_RTMP_VERSION 1.2.0
